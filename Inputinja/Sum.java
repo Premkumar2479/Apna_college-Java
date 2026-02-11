@@ -1,12 +1,16 @@
- package Inputinjava4;
+package Inputinja;
 
 import java.util.Scanner;
 
-public class Inpt {
+public class Sum {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String input = sc.next();
+        int  input = sc.nextInt();
         System.out.print(input);
+
+        String name = sc.nextLine();
+        System.out.println(name);
+
         sc.close();
     }
 }
