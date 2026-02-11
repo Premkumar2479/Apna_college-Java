@@ -1,4 +1,4 @@
-package Variables;
+package Variables2;
 
 public class Simplevalues {
     public static void main(String[] args){

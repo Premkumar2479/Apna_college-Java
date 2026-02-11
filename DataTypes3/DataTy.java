@@ -1,4 +1,4 @@
-package DataTypes;
+package DataTypes3;
 
 public class DataTy {
     public static void main(String[] args){
