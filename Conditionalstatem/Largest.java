@@ -2,13 +2,13 @@ package Conditionalstatem;
 
 public class Largest {
     public static void main(String[] args){
-    int A= 33;
-    int B= 30;
-    if(A>B && B<A){
-        System.out.println("A is Greater");
+    int A= 10;
+    int B= 5;
+    if(A>=B){
+        System.out.println("A is Greater of 2");
     }
     else{
-        System.out.println("B is Lessar");
+        System.out.println("B is Greater of 2");
     }
     }
 }
