@@ -1,4 +1,4 @@
-package Loop;
+package Loop.Whileloop;
 
 public class Wprintnumber {
     public static void main(String[] args){
