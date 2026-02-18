@@ -2,8 +2,10 @@ package Pattern;
 
 public class Socialmedia {
     public static void main(String[] args){
-        for (int i=1; i<=2; i++){
-            System.out.println("Meaaoon");
+        System.out.println("Meaaoon");
+
+        for (int i=1; i<=5; i++){
+                 System.out.println("Ghop");
         }
     }
 }
