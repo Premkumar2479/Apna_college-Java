@@ -6,9 +6,9 @@ public class Character {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         char ch ='A';
-        int n = 4;
-        for(int i=1; i<=n; i++){
-            for(int j=1; j<=i; j++){
+        int n = 5;
+        for(int line=1; line<=n; line++){
+            for(int chars=1; chars<=line; chars++){
                 System.out.print(ch);
                 ch++;
             }
