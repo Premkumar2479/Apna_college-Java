@@ -14,8 +14,7 @@ public class Swaping {
         a=b;
         b=temp;
 
-        System.out.println("a = " + a);
-        System.out.println("b = "+b);
+        
     }
 
 
@@ -25,6 +24,9 @@ public class Swaping {
         int b=10;
         swap(a,b);
 
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
         //swap
         
     
