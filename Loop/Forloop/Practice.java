@@ -2,13 +2,14 @@ package Loop.Forloop;
 
 import java.util.Scanner;
 
-public class Question {
+public class Practice {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        for(int i=1; i<=100; i++){
-            System.out.print(i);
+        int n = sc.nextInt();
+
+        for(int i=0; i<=n; i++){
+            System.out.print(n);
         }
-            sc.close();
-        
+        sc.close();
     }
 }
