@@ -8,7 +8,13 @@ public class Practice {
         int n = sc.nextInt();
 
         for(int i=0; i<=n; i++){
-            System.out.print(n);
+            int t = sc.nextInt();
+
+            if(t%2 == 0){
+                System.out.println("yes");
+            }else{
+                System.out.println("no");
+            }
         }
         sc.close();
     }
