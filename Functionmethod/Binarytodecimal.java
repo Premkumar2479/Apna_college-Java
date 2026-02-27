@@ -2,6 +2,7 @@ package Functionmethod;
 
 public class Binarytodecimal {
     public static void binToDec(int binNum){
+        int myNum = binNum;
         int pow = 0;
         int decNum = 0;
 
@@ -12,6 +13,7 @@ public class Binarytodecimal {
             pow++;
             binNum = binNum/10;
         }
+        System.out.println("decimal of " + myNum + " = "+ decNum);
     }
 
     public static void main(String args[]){
