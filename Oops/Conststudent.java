@@ -1,7 +1,7 @@
 package Oops;
 
 
-public class Consteructor {
+public class Conststudent {
     public static void main(String[] args){
         Student s1 = new Student("Nick");
         System.out.println(s1.name);
