@@ -12,22 +12,22 @@ public class Classandobject {
 
 
         //Object of BankAccount class
-        BankAccount myAcc = new BankAccount();
+        //BankAccount myAcc = new BankAccount();
 
-        myAcc.username = "Nick john";
-        myAcc.setPassword("abcdefghi");
+       // myAcc.username = "Nick john";
+        //myAcc.setPassword("abcdefghi");
     }
 }
 
 
 // This is class
-class BankAccount{
-    public String username;
-    private String password;
-    public void setPassword(String pwd){
-        password = pwd;
-    }
-}
+// class BankAccount{
+//     public String username;
+//     private String password;
+//     public void setPassword(String pwd){
+//         password = pwd;
+//     }
+// }
 
 
 // This is a class
